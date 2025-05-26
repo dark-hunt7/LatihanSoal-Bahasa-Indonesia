@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kisi-kisi Fahri Bahasa Indonesia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bahasa Indonesia</h1>
+        <p>Latihan Interaktif Bahasa Indonesia By Bidzz Official</p>
+    </header>
+
+    <main>
+        <section id="pilihan-ganda">
+            <h2>Pilihan Ganda</h2>
+            <div class="soal" id="soal1">
+                <h3>1. Apa yang dimaksud dengan wawancara?</h3>
+                <label><input type="radio" name="soal1" value="a" onchange="checkAnswer(1, this.value)"> a. Menonton film</label><br>
+                <label><input type="radio" name="soal1" value="b" onchange="checkAnswer(1, this.value)"> b. Membaca buku</label><br>
+                <label><input type="radio" name="soal1" value="c" onchange="checkAnswer(1, this.value)"> c. Mengobrol untuk dapat informasi</label><br>
+                <label><input type="radio" name="soal1" value="d" onchange="checkAnswer(1, this.value)"> d. Menggambar</label>
+                <div class="feedback" id="feedback1"></div>
+            </div>
+            <div class="soal" id="soal2">
+                <h3>2. Gambar yang ada di buku pelajaran disebut...</h3>
+                <label><input type="radio" name="soal2" value="a" onchange="checkAnswer(2, this.value)"> a. Ilustrasi</label><br>
+                <label><input type="radio" name="soal2" value="b" onchange="checkAnswer(2, this.value)"> b. Tulisan</label><br>
+                <label><input type="radio" name="soal2" value="c" onchange="checkAnswer(2, this.value)"> c. Cerita</label><br>
+                <label><input type="radio" name="soal2" value="d" onchange="checkAnswer(2, this.value)"> d. Huruf</label>
+                <div class="feedback" id="feedback2"></div>
+            </div>
+            <div class="soal" id="soal3">
+                <h3>3. Cara menulis surat yang benar adalah...</h3>
+                <label><input type="radio" name="soal3" value="a" onchange="checkAnswer(3, this.value)"> a. Tanpa salam</label><br>
+                <label><input type="radio" name="soal3" value="b" onchange="checkAnswer(3, this.value)"> b. Mengikuti aturan</label><br>
+                <label><input type="radio" name="soal3" value="c" onchange="checkAnswer(3, this.value)"> c. Sembarangan</label><br>
+                <label><input type="radio" name="soal3" value="d" onchange="checkAnswer(3, this.value)"> d. Hanya gambar</label>
+                <div class="feedback" id="feedback3"></div>
+            </div>
+            <div class="soal" id="soal4">
+                <h3>4. Apa yang kamu lakukan kalau ingin tahu cara membuat kue?</h3>
+                <label><input type="radio" name="soal4" value="a" onchange="checkAnswer(4, this.value)"> a. Menonton TV</label><br>
+                <label><input type="radio" name="soal4" value="b" onchange="checkAnswer(4, this.value)"> b. Bermain game</label><br>
+                <label><input type="radio" name="soal4" value="c" onchange="checkAnswer(4, this.value)"> c. Tidur</label><br>
+                <label><input type="radio" name="soal4" value="d" onchange="checkAnswer(4, this.value)"> d. Bertanya pada teman</label>
+                <div class="feedback" id="feedback4"></div>
+            </div>
+            <div class="soal" id="soal5">
+                <h3>5. Poster promosi biasanya digunakan untuk...</h3>
+                <label><input type="radio" name="soal5" value="a" onchange="checkAnswer(5, this.value)"> a. Mengumumkan sesuatu</label><br>
+                <label><input type="radio" name="soal5" value="b" onchange="checkAnswer(5, this.value)"> b. Makan</label><br>
+                <label><input type="radio" name="soal5" value="c" onchange="checkAnswer(5, this.value)"> c. Belajar matematika</label><br>
+                <label><input type="radio" name="soal5" value="d" onchange="checkAnswer(5, this.value)"> d. Menggambar</label>
+                <div class="feedback" id="feedback5"></div>
+            </div>
+            <div class="soal" id="soal6">
+                <h3>6. Kalimat yang jelas dan mudah dipahami disebut...</h3>
+                <label><input type="radio" name="soal6" value="a" onchange="checkAnswer(6, this.value)"> a. Kalimat panjang</label><br>
+                <label><input type="radio" name="soal6" value="b" onchange="checkAnswer(6, this.value)"> b. Kalimat acak</label><br>
+                <label><input type="radio" name="soal6" value="c" onchange="checkAnswer(6, this.value)"> c. Kalimat singkat</label><br>
+                <label><input type="radio" name="soal6" value="d" onchange="checkAnswer(6, this.value)"> d. Kalimat berbelit</label>
+                <div class="feedback" id="feedback6"></div>
+            </div>
+            <div class="soal" id="soal7">
+                <h3>7. Apa yang harus ada di dalam poster?</h3>
+                <label><input type="radio" name="soal7" value="a" onchange="checkAnswer(7, this.value)"> a. Hanya angka</label><br>
+                <label><input type="radio" name="soal7" value="b" onchange="checkAnswer(7, this.value)"> b. Hanya garis</label><br>
+                <label><input type="radio" name="soal7" value="c" onchange="checkAnswer(7, this.value)"> c. Gambar dan tulisan</label><br>
+                <label><input type="radio" name="soal7" value="d" onchange="checkAnswer(7, this.value)"> d. Hanya warna</label>
+                <div class="feedback" id="feedback7"></div>
+            </div>
+            <div class="soal" id="soal8">
+                <h3>8. Menyimak berita di TV termasuk kegiatan...</h3>
+                <label><input type="radio" name="soal8" value="a" onchange="checkAnswer(8, this.value)"> a. Mendengarkan</label><br>
+                <label><input type="radio" name="soal8" value="b" onchange="checkAnswer(8, this.value)"> b. Membaca</label><br>
+                <label><input type="radio" name="soal8" value="c" onchange="checkAnswer(8, this.value)"> c. Menulis</label><br>
+                <label><input type="radio" name="soal8" value="d" onchange="checkAnswer(8, this.value)"> d. Menggambar</label>
+                <div class="feedback" id="feedback8"></div>
+            </div>
+            <div class="soal" id="soal9">
+                <h3>9. Kalau kamu ingin berbagi di media sosial, apa yang harus diperhatikan?</h3>
+                <label><input type="radio" name="soal9" value="a" onchange="checkAnswer(9, this.value)"> a. Jumlah teman</label><br>
+                <label><input type="radio" name="soal9" value="b" onchange="checkAnswer(9, this.value)"> b. Keamanan dan kebenaran</label><br>
+                <label><input type="radio" name="soal9" value="c" onchange="checkAnswer(9, this.value)"> c. Warna gambar</label><br>
+                <label><input type="radio" name="soal9" value="d" onchange="checkAnswer(9, this.value)"> d. Ukuran tulisan</label>
+                <div class="feedback" id="feedback9"></div>
+            </div>
+            <div class="soal" id="soal10">
+                <h3>10. Membaca peta termasuk kompetensi...</h3>
+                <label><input type="radio" name="soal10" value="a" onchange="checkAnswer(10, this.value)"> a. Menyimak</label><br>
+                <label><input type="radio" name="soal10" value="b" onchange="checkAnswer(10, this.value)"> b. Menulis surat</label><br>
+                <label><input type="radio" name="soal10" value="c" onchange="checkAnswer(10, this.value)"> c. Menggambar</label><br>
+                <label><input type="radio" name="soal10" value="d" onchange="checkAnswer(10, this.value)"> d. Membaca peta</label>
+                <div class="feedback" id="feedback10"></div>
+            </div>
+            <div class="soal" id="soal11">
+                <h3>11. Apa yang harus dilakukan kalau ada informasi salah?</h3>
+                <label><input type="radio" name="soal11" value="a" onchange="checkAnswer(11, this.value)"> a. Tidur</label><br>
+                <label><input type="radio" name="soal11" value="b" onchange="checkAnswer(11, this.value)"> b. Mengabaikan</label><br>
+                <label><input type="radio" name="soal11" value="c" onchange="checkAnswer(11, this.value)"> c. Mengoreksi</label><br>
+                <label><input type="radio" name="soal11" value="d" onchange="checkAnswer(11, this.value)"> d. Diam saja</label>
+                <div class="feedback" id="feedback11"></div>
+            </div>
+            <div class="soal" id="soal12">
+                <h3>12. Cara terbaik mengingat pelajaran adalah...</h3>
+                <label><input type="radio" name="soal12" value="a" onchange="checkAnswer(12, this.value)"> a. Menonton TV</label><br>
+                <label><input type="radio" name="soal12" value="b" onchange="checkAnswer(12, this.value)"> b. Membaca dan mencatat</label><br>
+                <label><input type="radio" name="soal12" value="c" onchange="checkAnswer(12, this.value)"> c. Bermain sepanjang hari</label><br>
+                <label><input type="radio" name="soal12" value="d" onchange="checkAnswer(12, this.value)"> d. Tidur siang</label>
+                <div class="feedback" id="feedback12"></div>
+            </div>
+            <div class="soal" id="soal13">
+                <h3>13. Kalimat yang baik harus...</h3>
+                <label><input type="radio" name="soal13" value="a" onchange="checkAnswer(13, this.value)"> a. Jelas dan sopan</label><br>
+                <label><input type="radio" name="soal13" value="b" onchange="checkAnswer(13, this.value)"> b. Panjang</label><br>
+                <label><input type="radio" name="soal13" value="c" onchange="checkAnswer(13, this.value)"> c. Berantakan</label><br>
+                <label><input type="radio" name="soal13" value="d" onchange="checkAnswer(13, this.value)"> d. Tanpa tanda baca</label>
+                <div class="feedback" id="feedback13"></div>
+            </div>
+            <div class="soal" id="soal14">
+                <h3>14. Poster promosi biasanya ditempel di...</h3>
+                <label><input type="radio" name="soal14" value="a" onchange="checkAnswer(14, this.value)"> a. Kamar tidur</label><br>
+                <label><input type="radio" name="soal14" value="b" onchange="checkAnswer(14, this.value)"> b. Meja belajar</label><br>
+                <label><input type="radio" name="soal14" value="c" onchange="checkAnswer(14, this.value)"> c. Tempat umum</label><br>
+                <label><input type="radio" name="soal14" value="d" onchange="checkAnswer(14, this.value)"> d. Rumah</label>
+                <div class="feedback" id="feedback14"></div>
+            </div>
+            <div class="soal" id="soal15">
+                <h3>15. Menggambar ilustrasi termasuk kegiatan...</h3>
+                <label><input type="radio" name="soal15" value="a" onchange="checkAnswer(15, this.value)"> a. Menulis</label><br>
+                <label><input type="radio" name="soal15" value="b" onchange="checkAnswer(15, this.value)"> b. Menyanyi</label><br>
+                <label><input type="radio" name="soal15" value="c" onchange="checkAnswer(15, this.value)"> c. Membaca</label><br>
+                <label><input type="radio" name="soal15" value="d" onchange="checkAnswer(15, this.value)"> d. Menggambar</label>
+                <div class="feedback" id="feedback15"></div>
+            </div>
+        </section>
+
+        <section id="isian">
+            <h2>Isian</h2>
+            <div class="soal" id="soal16">
+                <label>1. Tulis salam pembuka yang baik untuk surat!</label><br>
+                <input type="text" id="input16" placeholder="Ketik jawaban Anda" onblur="checkTextAnswer(16)">
+                <div class="feedback" id="feedback16"></div>
+            </div>
+            <div class="soal" id="soal17">
+                <label>2. Sebutkan satu contoh media visual!</label><br>
+                <input type="text" id="input17" placeholder="Ketik jawaban Anda" onblur="checkTextAnswer(17)">
+                <div class="feedback" id="feedback17"></div>
+            </div>
+            <div class="soal" id="soal18">
+                <label>3. Apa yang harus kamu lakukan kalau ingin tahu informasi dari teman?</label><br>
+                <input type="text" id="input18" placeholder="Ketik jawaban Anda" onblur="checkTextAnswer(18)">
+                <div class="feedback" id="feedback18"></div>
+            </div>
+            <div class="soal" id="soal19">
+                <label>4. Tulis satu kalimat promosi untuk poster!</label><br>
+                <input type="text" id="input19" placeholder="Ketik jawaban Anda" onblur="checkTextAnswer(19)">
+                <div class="feedback" id="feedback19"></div>
+            </div>
+            <div class="soal" id="soal20">
+                <label>5. Sebutkan satu tempat untuk menempel poster!</label><br>
+                <input type="text" id="input20" placeholder="Ketik jawaban Anda" onblur="checkTextAnswer(20)">
+                <div class="feedback" id="feedback20"></div>
+            </div>
+        </section>
+
+        <button id="selesai">Selesai</button>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <h2>Hasil Latihan Soal</h2>
+                <p id="hasil"></p>
+                <button id="closeModal">Tutup</button>
+                <button id="shareWa">Bagikan ke WhatsApp</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
